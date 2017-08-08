@@ -6,7 +6,7 @@ ajax({
         age: 24
     },
     dataType: 'json', // 返回值类型的设定
-    async: false,   //是否异步
+    async: false,   //是否异步，默认异步true
     success: function (response, xml) {
         console.log(response);   // 此处执行请求成功后的代码
     },
