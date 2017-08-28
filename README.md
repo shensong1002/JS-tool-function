@@ -1,1 +1,1 @@
-# JS-tool-function
+# util
