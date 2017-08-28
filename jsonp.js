@@ -4,7 +4,7 @@ jsonp({
         wd: '中国'
     },
     callback: 'cb', // callback名称，默认是callback
-    time: 1000, // 设置强求时间
+    time: 1000, // 设置请求时间
     success: function (data) {
         // 此处放成功后执行的代码
         console.log(data.s);
